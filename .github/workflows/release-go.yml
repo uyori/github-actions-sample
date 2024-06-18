@@ -7,7 +7,7 @@ jobs:
   release-go:
     runs-on: ubuntu-latest
     env:
-      VESION: ${{ github.ref_name }} # タグ名を取得
+      VERSION: ${{ github.ref_name }} # タグ名を取得
     permissions:
       contents: write
     steps:
