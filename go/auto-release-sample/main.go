@@ -4,6 +4,6 @@ import "fmt"
 
 var version string
 
-func main() [
+func main() {
 	fmt.Printf("Version %s\n", version)
-]
+}
